@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: intelligent-document-query
+    env: python
+    buildCommand: uv sync
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: DEBUG
+        value: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: GEMINI_API_KEY
+        sync: false
+    healthCheckPath: /health
+    autoDeploy: true
