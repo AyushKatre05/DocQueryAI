@@ -1,0 +1,11 @@
+faiss-cpu
+fastapi
+google-genai
+httpx
+numpy
+pydantic-settings
+pymupdf
+uvicorn
+scikit-learn
+sentence-transformers
+InstructorEmbedding
