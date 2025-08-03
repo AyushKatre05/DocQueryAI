@@ -9,8 +9,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, HttpUrl, Field
 import uvicorn
 
-from utils import PDFProcessor, EmbeddingManager, AIGenerator
-from config import settings
+from utils.utils import PDFProcessor, EmbeddingManager, AIGenerator
+from config.config import settings
 
 # Configure logging
 logging.basicConfig(

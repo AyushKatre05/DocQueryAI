@@ -13,7 +13,7 @@ import faiss
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from config import settings
+from config.config import settings
 
 logger = logging.getLogger(__name__)
 
