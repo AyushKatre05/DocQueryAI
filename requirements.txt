@@ -20,3 +20,15 @@ unstructured
 unstructured[pdf]
 python-multipart
 fastapi-cache2
+aiohttp
+pydantic
+langchain
+langchain_community
+langchain-google-genai
+python-dotenv
+tiktoken
+pdfplumber
+python-docx
+beautifulsoup4
+docx2txt
+google-generativeai
