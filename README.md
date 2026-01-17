@@ -172,6 +172,3 @@ curl -X POST "http://localhost:8000/api/v1/hackrx/run" \
 - Google Gemini API key (optional, uses mock responses without it)
 - Internet access for PDF downloads
 
-## License
-
-This project is open source and available under the MIT License.
