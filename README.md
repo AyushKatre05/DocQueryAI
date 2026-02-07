@@ -175,3 +175,7 @@ curl -X POST "http://localhost:8000/api/v1/hackrx/run" \
 ## License
 
 This project is open source and available under the MIT License.
+
+
+## Contributing
+Contributions are welcome! Please open issues or pull requests for improvements or bug fixes.
